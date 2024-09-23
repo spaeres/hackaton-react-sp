@@ -1,0 +1,26 @@
+/* Centra todo el contenido con márgenes laterales */
+.container-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Centra verticalmente */
+  padding: 20px; /* Márgenes laterales */
+}
+
+.content-box {
+  border: 2px solid black; /* Borde negro */
+  padding: 20px;
+  border-radius: 15px; /* Bordes redondeados */
+  background-color: #f8f9fa; /* Color de fondo para resaltar el contenido */
+  text-align: center;
+  max-width: 500px; /* Ancho máximo de la caja */
+  width: 100%; /* Caja que se ajusta al ancho disponible */
+}
+
+.custom-progress-bar .progress-bar {
+  background: linear-gradient(90deg, #f2994a, #f2c94c); /* Degradado naranja */
+}
+
+.custom-progress-bar {
+  background-color: #d3d3d3; /* Gris cuando no hay progreso */
+}
